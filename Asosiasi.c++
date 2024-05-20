@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+
 using namespace std;
 
 class dokter; 
@@ -17,6 +18,7 @@ public:
     void tambah_dokter(dokter* )
     void cetakdokter();
     }
+    
 
 
 class dokter {
