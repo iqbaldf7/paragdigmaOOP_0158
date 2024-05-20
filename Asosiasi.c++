@@ -18,7 +18,7 @@ public:
     void tambah_dokter(dokter* )
     void cetakdokter();
     }
-    
+
 
 
 class dokter {
@@ -36,6 +36,7 @@ public:
     void tambah_pasien(pasien* );
     void cetakpasien();
 };
+
 
 void pasien::tambah_dokter(dokter* pdokter) {
     daftar_dokter.push_back(pdokter);
