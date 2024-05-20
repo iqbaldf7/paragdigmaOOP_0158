@@ -36,6 +36,7 @@ public:
 	}
 };
 
+
 int main() {
 	pelajar siswa1("andi laksono", "SMAN 1 BANTUL");
 	cout << siswa1.perkenalan();
